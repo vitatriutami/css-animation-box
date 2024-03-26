@@ -1,0 +1,61 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: mediumseagreen;
+  animation: fadein 2s ease-out;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: mediumpurple;
+  animation: fadein2 2s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    scale: 0;
+    rotate: 140deg;
+  }
+  25% {
+    opacity: 0.5;
+    scale: 0.5;
+    rotate: -140deg;
+  }
+  75% {
+    opacity: 0.7;
+    scale: 0.7;
+    rotate: -160deg;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+    rotate: 0deg;
+  }
+}
+
+@keyframes fadein2 {
+  0% {
+    opacity: 0;
+    scale: 0;
+    rotate: 140deg;
+  }
+  25% {
+    opacity: 0.5;
+    scale: 0.5;
+    rotate: -140deg;
+  }
+  75% {
+    opacity: 0.7;
+    scale: 0.7;
+    rotate: -160deg;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+    rotate: 0deg;
+  }
+}
+
